@@ -52,7 +52,7 @@ downsampled.sum &:value
 # 2014-08-18 15:03:00 -0400=> 24
 #}
 
-downsampled.mean &:value
+downsampled.mean { |point| point.value }
 #{
 # 2014-08-18 15:01:00 -0400=> 2,
 # 2014-08-18 15:02:00 -0400=> 5,
