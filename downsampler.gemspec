@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Owen Mockler"]
   spec.email         = ["omockler@gmail.com"]
   spec.summary       = %q{Downsample and group temporal data sets in ruby.}
-  spec.description   = %q{Downsample and group temporal data sets in ruby.}
+  spec.description   = %q{Downsample and group temporal data sets in ruby. Great for preparing time data for display in a chart.}
   spec.homepage      = "https://github.com/omockler/downsampler"
   spec.license       = "MIT"
 
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "pry"
-  spec.add_development_dependency "rspec", "~> 3.0.0"
-  spec.add_development_dependency "rspec-nc"
+  spec.add_development_dependency "pry", "~> 0.10"
+  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "rspec-nc", "~> 0.1"
 end
