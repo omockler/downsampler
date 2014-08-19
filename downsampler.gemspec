@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Downsampler::VERSION
   spec.authors       = ["Owen Mockler"]
   spec.email         = ["omockler@gmail.com"]
-  spec.summary       = %q{Downsample and group temporral data sets in ruby.}
-  spec.description   = %q{Downsample and group temporral data sets in ruby.}
-  spec.homepage      = ""
+  spec.summary       = %q{Downsample and group temporal data sets in ruby.}
+  spec.description   = %q{Downsample and group temporal data sets in ruby.}
+  spec.homepage      = "https://github.com/omockler/downsampler"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
