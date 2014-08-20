@@ -19,7 +19,21 @@ module Downsampler
 
     def counts
       inject({}) do |initial, (key, value)|
-        initial[key] = values.count
+        initial[key] = value.count
+        initial
+      end
+    end
+
+    def max_by &block
+      inject({}) do |initial, (key, value)|
+        initial[key] = value.max_by(&block).instance_eval &block
+        initial
+      end
+    end
+
+    def min_by &block
+      inject({}) do |initial, (key, value)|
+        initial[key] = value.max_by(&block).instance_eval &block
         initial
       end
     end
